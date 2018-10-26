@@ -1,0 +1,26 @@
+.lottery-container {
+    margin: 2rem 0;
+    color: white;
+}
+
+.lottery-btn {
+    cursor: pointer;
+    background: #d418e6c4;
+    width: 15%;
+    height: 100%;
+    padding: 1rem 0;
+    border-radius: 8px;
+    margin: auto;
+}
+
+.prize-info-btn {
+    color: white;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    background: #d418e6c4;
+    width: 15%;
+    height: 100%;
+    padding: 1rem 0;
+    border-radius: 8px;
+    margin: auto;
+}

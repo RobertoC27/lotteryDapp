@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono');
+
+.App {
+  text-align: center;
+  font-family: 'Fira Mono', monospace;
+
+}
+
+.cta-button {
+  border-radius: 8px;
+  display: inline-block;
+  width: 100%;
+  padding: 0.5rem 0;
+}

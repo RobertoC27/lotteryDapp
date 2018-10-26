@@ -1,0 +1,53 @@
+.wallet-container {
+    margin-top: 1rem;
+    padding: 1rem;
+    background: #3aa5d6a1;
+    width: 70%;
+    max-width: 780px;
+    /* margin: auto; */
+    vertical-align: bottom;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.wallet-row {
+    padding: 0.5rem 0;
+    background: #6e37c793;
+    margin-bottom: 0.5rem;
+    border-radius: 8px;
+}
+
+.info-tag {
+    font-size: 1.35rem;
+    padding-top: 0.3rem;
+}
+
+.info-display {
+    font-size: 1.1rem;
+    margin-top: 0.3rem;
+}
+
+.button-row {
+    padding: 0;
+}
+
+.generate-wallet{
+    cursor: pointer;
+    background: #b61e32a1;
+}
+
+.balance-container {
+    display: inline-block;
+    width: 20%;
+    margin-left: 1rem;
+    background: #3f6613bb;
+    vertical-align: bottom;
+    border-radius: 8px;
+}
+
+.funds-button {
+    margin-top: 1rem;
+    background: #108663b0;
+    border-radius: 8px;
+    cursor: pointer;
+}
