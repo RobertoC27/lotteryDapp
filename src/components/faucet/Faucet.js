@@ -8,7 +8,8 @@ const Faucet = (props) => {
     
     const checkFaucet = async () => {
         accounts = await web3.eth.getAccounts();
-        contract = await new web3.eth.Contract(ABI, "0x7ae7f632eef24cc162d4a1a98b39aad9a0ab1ddf");
+        // contract = await new web3.eth.Contract(ABI, "0x7ae7f632eef24cc162d4a1a98b39aad9a0ab1ddf");
+	contract = await new web3.eth.Contract(ABI, "0xd6bc75fddd2bfa791ec9022145ab90320c8f3c19");
         available = await contract.methods.available().call({from: props.publicKey});
         if(available) {
             fundAccount(contract)
